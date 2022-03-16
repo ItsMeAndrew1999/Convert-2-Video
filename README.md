@@ -1,23 +1,17 @@
 ## [Anydl Robot](https://telegram.dog/Anydl)
 ---
 
-An Open Source Telegram RoBot  😍
+An Open Source Telegram RoBot 
 
 ### Special thanks
 
-* [@Spechide](https://telegram.dog/spechide)
+* [@naveenfiletovideobot](https://telegram.dog/spechide)
 
 ### Installation
 
 #### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Our Telegram Channel and Group
-
-* [Dx Bots Updates](https://telegram.dog/Dx_Botz)
-
-* [InFoTel Group](https://telegram.dog/InFoTelGroup)
 
 
 ### [@BotFather](https://telegram.dog/BotFather) Commands
