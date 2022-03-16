@@ -63,3 +63,208 @@
     }
   }
 }
+
+
+-----> Node.js app detected
+-----> Creating runtime environment
+       
+       NPM_CONFIG_LOGLEVEL=error
+       NPM_CONFIG_PRODUCTION=true
+       NODE_ENV=production
+       NODE_MODULES_CACHE=true
+-----> Installing binaries
+       engines.node (package.json):  unspecified
+       engines.npm (package.json):   unspecified (use default)
+       
+       Resolving node version (latest stable) via semver.io...
+       Downloading and installing node 9.1.0...
+       Using default npm version: 5.5.1
+-----> Restoring cache
+       Skipping cache restore (new runtime signature)
+-----> Building dependencies
+       Pruning any extraneous modules
+       added 38 packages in 4.761s
+       Installing node modules (package.json)
+       up to date in 0.335s
+-----> Caching build
+       Clearing previous node cache
+       Saving 2 cacheDirectories (default):
+       - node_modules
+       - bower_components (nothing to cache)
+-----> Build succeeded!
+       ├── hiraku@1.0.5
+       ├── mysqldump@1.4.2
+       ├── slideout@1.0.1
+       ├── vue-quill-editor@2.3.3
+       └── vue2-editor@2.0.26
+       
+-----> PHP app detected
+-----> Bootstrapping...
+-----> Installing platform packages...
+       - php (7.1.11)
+       - ext-gd (bundled with php)
+       - ext-mbstring (bundled with php)
+       - nginx (1.8.1)
+       - apache (2.4.29)
+-----> Installing dependencies...
+       Composer version 1.5.2 2017-09-11 16:59:25
+       Loading composer repositories with package information
+       Installing dependencies from lock file
+       Package operations: 90 installs, 0 updates, 0 removals
+         - Installing wikimedia/composer-merge-plugin (v1.4.1): Downloading (100%)
+         - Installing appstract/laravel-meta (0.2.0): Downloading (100%)
+         - Installing vlucas/phpdotenv (v2.4.0): Downloading (100%)
+         - Installing symfony/css-selector (v3.3.10): Downloading (100%)
+         - Installing tijsverkoyen/css-to-inline-styles (2.2.0): Downloading (100%)
+         - Installing symfony/polyfill-mbstring (v1.6.0): Downloading (100%)
+         - Installing symfony/var-dumper (v3.3.10): Downloading (100%)
+         - Installing symfony/routing (v3.3.10): Downloading (100%)
+         - Installing symfony/process (v3.3.10): Downloading (100%)
+         - Installing symfony/http-foundation (v3.3.10): Downloading (100%)
+         - Installing symfony/event-dispatcher (v3.3.10): Downloading (100%)
+         - Installing psr/log (1.0.2): Downloading (100%)
+         - Installing symfony/debug (v3.3.10): Downloading (100%)
+         - Installing symfony/http-kernel (v3.3.10): Downloading (100%)
+         - Installing symfony/finder (v3.3.10): Downloading (100%)
+         - Installing symfony/console (v3.3.10): Downloading (100%)
+         - Installing doctrine/lexer (v1.0.1): Downloading (100%)
+         - Installing egulias/email-validator (2.1.2): Downloading (100%)
+         - Installing swiftmailer/swiftmailer (v6.0.2): Downloading (100%)
+         - Installing paragonie/random_compat (v2.0.11): Downloading (100%)
+         - Installing ramsey/uuid (3.7.1): Downloading (100%)
+         - Installing psr/simple-cache (1.0.0): Downloading (100%)
+         - Installing psr/container (1.0.0): Downloading (100%)
+         - Installing symfony/translation (v3.3.10): Downloading (100%)
+         - Installing nesbot/carbon (1.22.1): Downloading (100%)
+         - Installing mtdowling/cron-expression (v1.2.1): Downloading (100%)
+         - Installing monolog/monolog (1.23.0): Downloading (100%)
+         - Installing league/flysystem (1.0.41): Downloading (100%)
+         - Installing erusev/parsedown (1.6.3): Downloading (100%)
+         - Installing doctrine/inflector (v1.2.0): Downloading (100%)
+         - Installing laravel/framework (v5.5.20): Downloading (100%)
+         - Installing caffeinated/modules (v4.2.2): Downloading (100%)
+         - Installing symfony/filesystem (v3.3.10): Downloading (100%)
+         - Installing seld/phar-utils (1.0.1): Downloading (100%)
+         - Installing seld/jsonlint (1.6.1): Downloading (100%)
+         - Installing seld/cli-prompt (1.0.3): Downloading (100%)
+         - Installing justinrainbow/json-schema (5.2.6): Downloading (100%)
+         - Installing composer/spdx-licenses (1.1.6): Downloading (100%)
+         - Installing composer/semver (1.4.2): Downloading (100%)
+         - Installing composer/ca-bundle (1.0.8): Downloading (100%)
+         - Installing composer/composer (1.5.2): Downloading (100%)
+         - Installing doctrine/collections (v1.5.0): Downloading (100%)
+         - Installing doctrine/cache (v1.7.1): Downloading (100%)
+         - Installing doctrine/annotations (v1.5.0): Downloading (100%)
+         - Installing doctrine/common (v2.8.1): Downloading (100%)
+         - Installing fideloper/proxy (3.3.4): Downloading (100%)
+         - Installing psr/http-message (1.0.1): Downloading (100%)
+         - Installing psr/cache (1.0.1): Downloading (100%)
+         - Installing php-http/promise (v1.0.0): Downloading (100%)
+         - Installing php-http/httplug (v1.1.0): Downloading (100%)
+         - Installing php-http/discovery (1.3.0): Downloading (100%)
+         - Installing guzzlehttp/psr7 (1.4.2): Downloading (100%)
+         - Installing guzzlehttp/promises (v1.3.1): Downloading (100%)
+         - Installing guzzlehttp/guzzle (6.3.0): Downloading (100%)
+         - Installing php-http/guzzle6-adapter (v1.1.1): Downloading (100%)
+         - Installing symfony/options-resolver (v3.3.10): Downloading (100%)
+         - Installing php-http/message-factory (v1.0.2): Downloading (100%)
+         - Installing clue/stream-filter (v1.4.0): Downloading (100%)
+         - Installing php-http/message (1.6.0): Downloading (100%)
+         - Installing php-http/client-common (v1.6.0): Downloading (100%)
+         - Installing php-http/cache-plugin (v1.4.0): Downloading (100%)
+         - Installing knplabs/github-api (2.6.0): Downloading (100%)
+         - Installing graham-campbell/manager (v3.0.0): Downloading (100%)
+         - Installing graham-campbell/github (v6.1.0): Downloading (100%)
+         - Installing league/commonmark (0.15.7): Downloading (100%)
+         - Installing graham-campbell/markdown (v8.0.0): Downloading (100%)
+         - Installing jaam/mixpanel-data-export-api (v0.1.2): Downloading (100%)
+         - Installing jakub-onderka/php-console-color (0.1): Downloading (100%)
+         - Installing lanin/laravel-api-debugger (3.1.0): Downloading (100%)
+         - Installing laracasts/utilities (3.0): Downloading (100%)
+         - Installing league/oauth1-client (1.7.0): Downloading (100%)
+         - Installing laravel/socialite (v3.0.9): Downloading (100%)
+         - Installing nikic/php-parser (v3.1.2): Downloading (100%)
+         - Installing jakub-onderka/php-console-highlighter (v0.3.2): Downloading (100%)
+         - Installing dnoegel/php-xdg-base-dir (0.1): Downloading (100%)
+         - Installing psy/psysh (v0.8.14): Downloading (100%)
+         - Installing laravel/tinker (v1.0.2): Downloading (100%)
+         - Installing mtdowling/jmespath.php (2.4.0): Downloading (100%)
+         - Installing aws/aws-sdk-php (3.37.1): Downloading (100%)
+         - Installing league/flysystem-aws-s3-v3 (1.0.18): Downloading (100%)
+         - Installing owen-it/laravel-auditing (v4.1.4): Downloading (100%)
+         - Installing larapack/hooks (v1.0.1): Downloading (100%)
+         - Installing larapack/voyager-hooks (v1.0.4): Downloading (100%)
+         - Installing doctrine/dbal (v2.6.2): Downloading (100%)
+         - Installing larapack/doctrine-support (v0.1.4): Downloading (100%)
+         - Installing intervention/image (2.4.1): Downloading (100%)
+         - Installing arrilot/laravel-widgets (3.8.0): Downloading (100%)
+         - Installing tcg/voyager (v1.0.7): Downloading (100%)
+         - Installing voyager-themes (0.3): Cloning 0.3 from cache
+         - Installing watson/rememberable (2.0.3): Downloading (100%)
+       Generating optimized autoload files
+       > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+       > @php artisan package:discover
+       Discovered Package: appstract/laravel-meta
+       Discovered Package: caffeinated/modules
+       Discovered Package: fideloper/proxy
+       Discovered Package: graham-campbell/github
+       Discovered Package: graham-campbell/markdown
+       Discovered Package: lanin/laravel-api-debugger
+       Discovered Package: laracasts/utilities
+       Discovered Package: laravel/socialite
+       Discovered Package: laravel/tinker
+       Discovered Package: owen-it/laravel-auditing
+       Discovered Package: larapack/voyager-hooks
+       Discovered Package: intervention/image
+       Discovered Package: arrilot/laravel-widgets
+       Discovered Package: tcg/voyager
+       Package manifest generated successfully.
+       Loading composer repositories with package information
+       Installing dependencies from lock file
+       Nothing to install or update
+       Generating optimized autoload files
+       > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+       > @php artisan package:discover
+       Discovered Package: appstract/laravel-meta
+       Discovered Package: caffeinated/modules
+       Discovered Package: fideloper/proxy
+       Discovered Package: graham-campbell/github
+       Discovered Package: graham-campbell/markdown
+       Discovered Package: lanin/laravel-api-debugger
+       Discovered Package: laracasts/utilities
+       Discovered Package: laravel/socialite
+       Discovered Package: laravel/tinker
+       Discovered Package: owen-it/laravel-auditing
+       Discovered Package: larapack/voyager-hooks
+       Discovered Package: intervention/image
+       Discovered Package: arrilot/laravel-widgets
+       Discovered Package: tcg/voyager
+       Package manifest generated successfully.
+       > @php artisan command:SyncGit
+       Cloning into 'resources/views/theme'...
+       
+                                                                                      
+         [Illuminate\Database\QueryException]                                         
+         SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "pages" does not exist  
+         LINE 1: select * from "pages" where "slug" = $1 limit 1                      
+                               ^ (SQL: select * from "pages" where "slug" = articles  
+          limit 1)                                                                    
+                                                                                      
+       
+                                                                                      
+         [Doctrine\DBAL\Driver\PDOException]                                          
+         SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "pages" does not exist  
+         LINE 1: select * from "pages" where "slug" = $1 limit 1                      
+                               ^                                                      
+                                                                                      
+       
+                                                                                      
+         [PDOException]                                                               
+         SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "pages" does not exist  
+         LINE 1: select * from "pages" where "slug" = $1 limit 1                      
+                               ^                                                      
+                                                                                      
+       
+       Script @php artisan command:SyncGit handling the post-install-cmd event returned with error code 1
+ !     Push rejected, failed to compile PHP app.
+ !     Push failed
